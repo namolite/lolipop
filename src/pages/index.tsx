@@ -119,16 +119,6 @@ const Home = () => {
                       <span className='ts-fast mr-3 h-1.5 w-3 bg-gray-500 rounded-full inline-block cursor-pointer' onClick={swithSwiper(4)}></span>
                     </div>
                   </div>
-                  <div>
-                    <div className='flex'>
-                      <div className='ml-4 ts-fast'>
-                        <img src="" />
-                      </div>
-                      <div className='ml-4 ts-fast'>
-                        <img src="" />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

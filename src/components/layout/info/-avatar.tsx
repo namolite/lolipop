@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 const Avatar = () => {
   return(
@@ -7,7 +7,7 @@ const Avatar = () => {
         <div>
           <div className="w-24 h-24 my-0 mx-auto relative mb-4">
             <a className="w-full h-full flex items-center justify-center">
-              <img src={'avatar.jpg'} className="w-full h-full absolute object-cover rounded-full"></img>
+              <Image alt="" src={'avatar.jpg'} height={96} width={96} className="w-full h-full absolute object-cover rounded-full" />
             </a>
           </div>
           <h5 className="font-tt t-c font-bold text-lg ts-fast ts-text">
