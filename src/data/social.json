@@ -1,0 +1,27 @@
+[
+  {
+    "id": "github",
+    "url": "https://github.com/namolite",
+    "assets": "/img/github.svg"
+  },
+  {
+    "id": "telegram",
+    "url": "https://t.me/unlimited_echo_bot",
+    "assets": "/img/telegram.svg"
+  },
+  {
+    "id": "facebook",
+    "url": "https://t.me/unlimited_echo_bot",
+    "assets": "/img/facebook.svg"
+  },
+  {
+    "id": "steam",
+    "url": "https://steamcommunity.com/id/namolite",
+    "assets": "/img/steam.svg"
+  },
+  {
+    "id": "mastodon",
+    "url": "https://wxw.moe/web/@nyan",
+    "assets": "/img/mastodon.svg"
+  }
+]

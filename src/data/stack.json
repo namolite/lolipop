@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "name": "HTML",
+      "url": ""
+    },
+    {
+      "name": "CSS",
+      "url": ""
+    },
+    {
+      "name": "JavaScript",
+      "url": ""
+    },
+    {
+      "name": "TypeScript",
+      "url": ""
+    },
+    {
+      "name": "React",
+      "url": ""
+    },
+    {
+      "name": "Next",
+      "url": ""
+    },
+    {
+      "name": "Vue",
+      "url": ""
+    },
+    {
+      "name": "Electron",
+      "url": ""
+    },
+    {
+      "name": "tailwind",
+      "url": ""
+    },
+    {
+      "name": "figma",
+      "url": ""
+    }
+  ],
+  [
+    {
+      "name": "Node",
+      "url": ""
+    },
+    {
+      "name": "BASH",
+      "url": ""
+    },
+    {
+      "name": "SQL",
+      "url": ""
+    },
+    {
+      "name": "Python",
+      "url": ""
+    },
+    {
+      "name": "uvicorn",
+      "url": ""
+    },
+    {
+      "name": "TensorFlow",
+      "url": ""
+    },
+    {
+      "name": "Java",
+      "url": ""
+    },
+    {
+      "name": "Hadoop",
+      "url": ""
+    },
+    {
+      "name": "Kotlin",
+      "url": ""
+    },
+    {
+      "name": "docker",
+      "url": ""
+    }
+  ]
+]

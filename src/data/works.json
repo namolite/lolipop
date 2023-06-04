@@ -1,0 +1,44 @@
+[
+  {
+    "time": "2022-12-22",
+    "title": "Qwerty Learner",
+    "detail": "Combines the memorisation of English words with the exercise of muscle memory for English keyboard input, allowing you to consolidate muscle memory while reciting words.",
+    "img": "/img/qwerty.png",
+    "url": "https://github.com/Kaiyiwing/qwerty-learner"
+  },
+  {
+    "time": "2022-12-22",
+    "title": "Here is the Resume!",
+    "detail": "Now it is latest and available. Click the \"Download CV\" at bottom-left corner to download my Simplified Chinese resume and know me now!",
+    "img": "/img/r.png",
+    "url": "./resume.pdf"
+  },
+  {
+    "time": "2022-12-22",
+    "title": "pinch-challenge",
+    "detail": "It help ye download \"Daily Challenge\" of Leecode efficiently. After the installation of python, put the programme where you want it and run it.",
+    "img": "/img/p.jpg",
+    "url": "https://github.com/namolite/pinch-challenge"
+  },
+  {
+    "time": "2022-12-22",
+    "title": "First Installation of Arch Linux",
+    "detail": "How awful is a noob who don't know anything about Linux? Telling the most stupid mistakes I have made.",
+    "img": "/img/kim.jpg",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTM4ODk2MA==&amp;mid=2247485956&amp;idx=1&amp;sn=b209f532085931fab93645b0ada9c347&amp;chksm=c11db24bf66a3b5d789a567a73fbdcf8364c7a17a8d715a76a6a380ebfc8af1003fb88d74f51&token=1347609255&lang=zh_CN#rd"
+  },
+  {
+    "time": "2022-12-22",
+    "title": "How to Cook",
+    "detail": "A very theoretical guidance for programmers to know how to cook at home (Chinese only).",
+    "img": "/img/c.png",
+    "url": "https://cook.aiurs.co/"
+  },
+  {
+    "time": "2022-12-22",
+    "title": "Typora-pinch-theme",
+    "detail": "A sky-blue theme for typora, for self-use, and offering testing and sharing. Download the latest theme file from the url and extract it to your theme folder.",
+    "img": "/img/theme.png",
+    "url": "https://github.com/namolite/typora-pinch-theme"
+  }
+]
