@@ -18,7 +18,7 @@ const Meta = ({ pageTitle }: any) => {
         <link rel="icon" href="f.svg" sizes="any" />
         <meta name="description" content="A resume base on Next & my♥!" />
       </Head>
-      <Script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossOrigin="anonymous"></Script>
+      <Script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossOrigin="anonymous" />
     </>
   )
 }
