@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Script from "next/script";
-import { Analytics } from '@vercel/analytics/react' 
 
 
 interface Props {
@@ -18,7 +17,6 @@ const Meta = ({ pageTitle }: any) => {
         <title>{`Lynx | ${pageTitle}`}</title>
         <link rel="icon" href="f.svg" sizes="any" />
         <meta name="description" content="A resume base on Next & my♥!" />
-        <Analytics />
       </Head>
       <Script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossOrigin="anonymous" />
     </>
