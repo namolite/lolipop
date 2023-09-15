@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import Info from "@/components/layout/info/info";
 import Mask from "@/components/mask";
 import Nya from '@/components/layout/nya/nya';
+import { Analytics } from '@vercel/analytics/react'
 
 const Layout = (props: any) => {
   const [isActive, setIsActive] = useState(false)
@@ -25,6 +26,7 @@ const Layout = (props: any) => {
           </div>
         </div>
       </main>
+      <Analytics />
     </Fragment>
   )
 }
