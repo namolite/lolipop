@@ -2,43 +2,22 @@ import { useState } from 'react'
 import 'tailwindcss/tailwind.css'
 
 import Meta from '@/components/meta'
+
+import Banner from '@/components/main/banner/banner'
 import Award from '@/components/layout/main/-award'
 import Card from '@/components/layout/main/-card'
 import Title from '@/components/layout/main/-title'
 import Work from '@/components/layout/main/-work'
 
-const Skill = ({ props }: any) => {
-  interface props {
-    title: String,
-    content: String
-  }
-  return (
-    <div className='mx-4 my-6'>
-      <h5 className='t-t font-tt pb-1.5'>
-        <span>{props.title}</span>
-      </h5>
-      <div className='t-m font-lato t-90p'>
-        <p>{props.content}</p>
-      </div>
-    </div>
-  )
-}
+import Skill from '@/components/text/skill'
+import Contact from '@/components/main/contact'
+import Introduction from '@/components/main/about'
 
-const Contact = ({ title, content }: any) => {
-  return (
-    <div className="mb-1.5 ml-6 flex items-center relative">
-      <div className="award t-t mr-4 flex min-w-35p">
-        <span className="font-pop font-bold">{title}</span>
-      </div>
-      <span className="font-pop text-sm relative">{content}</span>
-    </div>
-  )
-}
 
 const Home = () => {
 
-  const award = require('../data/award.json')
-  const skill = require('../data/skill.json')
+  const award = require('../data/list/award.json')
+  const skill = require('../data/text/skill.json')
   const works = require('../data/works.json')
 
   const [prevPhase, setPhase] = useState(0)
@@ -60,18 +39,7 @@ const Home = () => {
       <div className='catto-m h-auto w-screen pl-72 pr-20 text-gray-400 overflow-hidden'>
         <div className='h-auto overflow-visible'>
           <Card>
-            <div className='banner w-full h-96 bg-cover bg-center mb-8'>
-              <div className='flex p-16 w-full'>
-                <div className='w-full items-center'>
-                  <h1 className='text-5xl font-tt pb-36 text-gray-50'>
-                    <span>life is much simpler with</span>
-                  </h1>
-                  <h1 className='text-8xl font-tt text-gray-100'>
-                    <span>JavaScript</span>
-                  </h1>
-                </div>
-              </div>
-            </div>
+            <Banner />
           </Card>
           <Card>
             <div className='fence w-full flex relative'>
@@ -125,26 +93,11 @@ const Home = () => {
           </Card>
           <Card>
             <Title data={`🐾 Contact`} />
-            <div className='ml-4 w-full grid grid-cols-3'>
-              <div>
-                <Contact title={'E-mail'} content= {'littlemaid@duck.com'} />
-                <Contact title={''} content= {'namo.hyrb@gmail.com'} />
-                <div className='h-4'></div>
-                <Contact title={'Telegram'} content= {'https://t.me/unlimited_echo_bot'} />
-                <div className='h-4'></div>
-                <Contact title={'Linkedin'} content= {'https://www.linkedin.com/in/namolite'} />
-              </div>
-            </div>
+            <Contact />
           </Card>
           <Card>
             <Title data={'💕 About Me'} />
-            <div className='w-full grid t-m'>
-              <div className='mx-8 my-3 text-sm font-pop'>
-                <p className='mb-3'>Hello there! I&apos;m an enthusiastic undergraduate student who is majoring in Computer Science. I have a passion for a wide range of interests, including literature, technology, cooking, petting, lo-fi hip-hop, and playing all sorts of sports.</p>
-                <p className='mb-3'>I&apos;m always eager to learn and grow, especially interested in coding with grace and style. I work hard to achieve my goals and am constantly seeking new challenges.</p>
-                <p className='mb-12'>Oh, and I have to confess - I&apos;m a huge fan of Arch Linux and simply can&apos;t resist anything cute! Thanks for taking the time to read my profile. That&apos;s it, nya.</p>
-              </div>
-            </div>
+            <Introduction />
           </Card>
         </div>
       </div>

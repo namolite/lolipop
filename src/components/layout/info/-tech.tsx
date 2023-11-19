@@ -25,7 +25,7 @@ const List = ({ props }: any) => {
 
 
 const Tech = () => {
-  const stack = require('../../../data/stack.json')
+  const stack = require('../../../data/list/stack.json')
   return (
     <div className="minus-em pt-60 pb-12">
       <div className="py-6">

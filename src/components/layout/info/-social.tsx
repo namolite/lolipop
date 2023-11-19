@@ -19,7 +19,7 @@ const Media = ({ props }: any) => {
 
 const Social = () => {
 
-  const data = require('../../../data/social.json')
+  const data = require('../../../data/list/social.json')
 
   return (
     <div className="flex absolute h-14 w-full left-0 bottom-0 bg-gray-700 items-center justify-center z-110">

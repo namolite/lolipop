@@ -227,14 +227,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "IBMPlexMono";
   src: url("/fonts/IBMPlexMono-Regular.ttf");
 }
+.t-30p {
+  font-size: 1.3em;
+}
+.t-xl {
+  font-size: 1.5rem/* 24px */;
+  line-height: 1.75rem/* 28px */;
+}
 .t-15p {
   font-size: 1.15em;
 }
 .t-90p {
-  font-size: .9em;
+  font-size: .95em;
+  line-height: 2em;
+  letter-spacing: normal;
 }
 .t-80p {
-  font-size: .8em;
+  font-size: .85em;
 }
 .t-c {
   color: var(--font-theme);

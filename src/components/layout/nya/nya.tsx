@@ -20,7 +20,7 @@ const Nav = ({ props }: any) => {
 const Nya = ({ title, isActive, nyaActive }: any) => {
   const [active, setActive] = useState(false)
 
-  const nav = require('../../../data/nav.json')
+  const nav = require('../../../data/list/nav.json')
 
   const openMenu = () => {
     // TODO(done) fetch elements
