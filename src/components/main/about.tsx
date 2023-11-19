@@ -13,8 +13,8 @@ const Introduction = () => (
     <div className='mx-8 my-3 t-90p font-pop'>
       <div className="mb-9">{
         aboutData.map((data: { id: string, content: string }) =>
-          <div className="mb-3">
-            <TextBlock key={data.id} data={data.content} />
+          <div className="mb-3" key={data.id}>
+            <TextBlock data={data.content} />
           </div>
         )
       }</div>
