@@ -7,7 +7,7 @@ import Banner from '@/components/main/banner/banner'
 import Award from '@/components/layout/main/-award'
 import Card from '@/components/layout/main/-card'
 import Title from '@/components/layout/main/-title'
-import Work from '@/components/layout/main/-work'
+// import Work from '@/components/layout/main/-work'
 
 import Skill from '@/components/text/skill'
 import HorizontalSlides from '@/components/main/works/works'
