@@ -11,7 +11,7 @@ const Layout = (props: any) => {
       <main className="tart bg-black font-mono">
         <div className="puff p-4 h-auto w-auto overflow-visible relative">
           <div className="clear h-auto ml-auto mr-auto overflow-visible overflow-x-hidden relative shadow-md">
-            <div className="bg-gray-900 relative flex flex-nowrap shadow-lg">
+            <div className="main-bg relative flex flex-nowrap shadow-lg">
               <Info />
               {props.children}
               <Mask isActive={isActive} />

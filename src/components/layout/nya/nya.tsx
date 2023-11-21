@@ -50,9 +50,9 @@ const Nya = ({ title, isActive, nyaActive }: any) => {
 
   return (
     <div className="minus-em absolute right-0 w-20">
-      <div className="catto minus-em fixed top-auto bottom-auto right-auto w-20 bg-gray-800">
+      <div className="catto layout-bg minus-em fixed top-auto bottom-auto right-auto w-20">
         <div className="relative">
-          <div className="top-0 left-0 absolute w-full h-20 flex items-center bg-gray-700 z-10 shadow-lg">
+          <div className="layout-bg-light top-0 left-0 absolute w-full h-20 flex items-center z-10 shadow-lg">
             <a className="nyan block p-8 opacity-100" onClick={openMenu}>
               <span className="meow meow-0 relative"></span>
               <span className="meow relative"></span>

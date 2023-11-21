@@ -27,7 +27,7 @@ export default function HorizontalSlides({ data }: any) {
   return (
     <div className='w-full max-w-full flex-ro t-m relative'>
       <div className='overflow-visible mx-auto relative z-0 list-none'>
-        <div className='swiper sw-0 w-full h-full relative flex ts-1 box-content'>
+        <div className='work-item sw-0 w-full h-full relative flex ts-1 box-content'>
           {works.map((data: { time: string, title: string, detail: string, img: string, url: string }) => (
             <div key={data.title}>
               <Work props={data} />
@@ -40,11 +40,11 @@ export default function HorizontalSlides({ data }: any) {
         <div className='flex justify-betwee pt-2 h-8'>
           <div>
             <div className='switch absolute text-center z-10'>
-              <span className='ts-fast swiper-active mr-3 h-1.5 w-3 bg-gray-500 rounded-full inline-block cursor-pointer' onClick={swithSwiper(0)}></span>
-              <span className='ts-fast mr-3 h-1.5 w-3 bg-gray-500 rounded-full inline-block cursor-pointer' onClick={swithSwiper(1)}></span>
-              <span className='ts-fast mr-3 h-1.5 w-3 bg-gray-500 rounded-full inline-block cursor-pointer' onClick={swithSwiper(2)}></span>
-              <span className='ts-fast mr-3 h-1.5 w-3 bg-gray-500 rounded-full inline-block cursor-pointer' onClick={swithSwiper(3)}></span>
-              <span className='ts-fast mr-3 h-1.5 w-3 bg-gray-500 rounded-full inline-block cursor-pointer' onClick={swithSwiper(4)}></span>
+              <span className='ts-fast swiper mr-3 h-1.5 w-3 rounded-full inline-block cursor-pointer swiper-active' onClick={swithSwiper(0)}></span>
+              <span className='ts-fast swiper mr-3 h-1.5 w-3 rounded-full inline-block cursor-pointer' onClick={swithSwiper(1)}></span>
+              <span className='ts-fast swiper mr-3 h-1.5 w-3 rounded-full inline-block cursor-pointer' onClick={swithSwiper(2)}></span>
+              <span className='ts-fast swiper mr-3 h-1.5 w-3 rounded-full inline-block cursor-pointer' onClick={swithSwiper(3)}></span>
+              <span className='ts-fast swiper mr-3 h-1.5 w-3 rounded-full inline-block cursor-pointer' onClick={swithSwiper(4)}></span>
             </div>
           </div>
         </div>

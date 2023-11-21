@@ -7,7 +7,7 @@ const Title = ({data}: Str) => {
     <>
       <div className='card-t items-center flex'>
         <div className='my-4 relative'>
-          <h4 className='font-tt font-semibold t-xl t-c'>
+          <h4 className='font-tt font-semibold tracking-wider t-xl t-c'>
             <span>{ data }</span>
           </h4>
         </div>

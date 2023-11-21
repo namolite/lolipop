@@ -1,0 +1,20 @@
+[
+  {
+    "id": "contact_email",
+    "title": "E-mail",
+    "content": "littlemaid@duck.com",
+    "assets": "mailto:littlemaid@duck.com"
+  },
+  {
+    "id": "contact_telegram",
+    "title": "Telegram",
+    "content": "t.me/unlimited_echo_bot",
+    "assets": "https://t.me/unlimited_echo_bot"
+  },
+  {
+    "id": "contact_linkedin",
+    "title": "Linkedin",
+    "content": "www.linkedin.com/in/namolite",
+    "assets": "https://www.linkedin.com/in/namolite"
+  }
+]

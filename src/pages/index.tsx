@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import 'tailwindcss/tailwind.css'
 
 import Meta from '@/components/meta'
@@ -7,7 +6,6 @@ import Banner from '@/components/main/banner/banner'
 import Award from '@/components/layout/main/-award'
 import Card from '@/components/layout/main/-card'
 import Title from '@/components/layout/main/-title'
-// import Work from '@/components/layout/main/-work'
 
 import Skill from '@/components/text/skill'
 import HorizontalSlides from '@/components/main/works/works'
@@ -19,7 +17,7 @@ const Home = () => {
 
   const award = require('../data/list/award.json')
   const skill = require('../data/text/skill.json')
-  // const works = require('../data/works.json')
+  const contact = require('../data/list/contact.json')
 
   return (
     <>
@@ -57,7 +55,7 @@ const Home = () => {
           </Card>
           <Card>
             <Title data={`🐾 Contact`} />
-            <Contact />
+            <Contact data={contact} />
           </Card>
           <Card>
             <Title data={'💕 About Me'} />
