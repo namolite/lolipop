@@ -3,14 +3,14 @@
     "time": "2022-12-22",
     "title": "Qwerty Learner",
     "detail": "Combines the memorisation of English words with the exercise of muscle memory for English keyboard input, allowing you to consolidate muscle memory while reciting words.",
-    "img": "/img/qwerty.png",
+    "img": "/img/q.png",
     "url": "https://github.com/Kaiyiwing/qwerty-learner"
   },
   {
     "time": "2022-12-22",
     "title": "Here is the Resume!",
     "detail": "Now it is latest and available. Click the \"Download CV\" at bottom-left corner to download my Simplified Chinese resume and know me now!",
-    "img": "/img/r.png",
+    "img": "/img/cv.webp",
     "url": "./resume.pdf"
   },
   {

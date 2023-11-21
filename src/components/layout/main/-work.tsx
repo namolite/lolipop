@@ -15,7 +15,7 @@ const Work = ({ props }: any) => {
       <Link href={props.url} className='relative'>
         <img src={props.img} alt=" " width={'320'} height={'320'} className='h-80 w-full object-cover object-center' />
       </Link>
-      <div className='bg-work h-48 p-6 relative bottom-0'>
+      <div className='bg-works h-48 p-6 relative bottom-0'>
         <Link href={props.url} className='pb-4 t-t t-15p block font-lato'>
           <h5 className=''>{props.title}</h5>
         </Link>
